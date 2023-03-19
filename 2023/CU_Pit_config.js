@@ -96,6 +96,12 @@ var config_data = `
     }
   ],
   "auton": [
+  { "name": "Comments",
+      "code": "aco",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    }
   ],
   "teleop": [
   ],
