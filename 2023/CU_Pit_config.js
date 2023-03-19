@@ -86,7 +86,7 @@ var config_data = `
       "code": "sct",
       "type": "text",
       "size": 20,
-      "maxSize": 250
+      "maxSize": 250,
       "defaultValue":"ScoutingPASS"
     },
     { "name": "Comments",
