@@ -23,9 +23,9 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "w": "Tank/West Coast<br>",
         "m": "Mechanum<br>",
+        "b": "Butterfly/Grashopper<br>",
         "o": "Other"
       },
       "defaultValue": "o"
@@ -87,6 +87,7 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
+      "defaultValue":"ScoutingPASS"
     },
     { "name": "Comments",
       "code": "co",
