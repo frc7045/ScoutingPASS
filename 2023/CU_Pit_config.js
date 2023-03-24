@@ -104,7 +104,7 @@ var config_data = `
       },
       "defaultValue":"n"
     }, 
-    { "name": "Any problems of issues, broken mechanisms?",
+    { "name": "Any problems/ issues?",
       "code": "sct",
       "type": "text",
       "size": 20,
