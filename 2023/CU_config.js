@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023njwh",
+      "defaultValue": "2023njwas",
       "required": "true",
       "disabled": "true"
     },
