@@ -91,7 +91,7 @@ var config_data = `
       "code": "bde",
       "type": "bool"
     },
-    { "name": "2nd Game Piece during Autonomous",
+    { "name": "2nd Game Piece(Auton)",
       "code": "sgp",
       "type": "radio",
       "choices": {
