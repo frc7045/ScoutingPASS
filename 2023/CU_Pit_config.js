@@ -57,7 +57,7 @@ var config_data = `
       "choices": {
         "f": "Floor<br>",
         "m": "Mid<br>",
-        "h": "High<br>",
+        "h": "High<br>"
       },
       "defaultValue":"f"
     },    
@@ -71,7 +71,7 @@ var config_data = `
       "choices": {
         "f": "Floor<br>",
         "m": "Mid<br>",
-        "h": "High<br>",
+        "h": "High<br>"
       },
       "defaultValue":"f"
     },    
@@ -79,7 +79,7 @@ var config_data = `
       "code": "lc",
       "type": "bool"
     },
-    { "name": "Cross Charging Station",
+    { "name": "Crossover Charging Station",
       "code": "ccs",
       "type": "bool"
     },
@@ -99,8 +99,8 @@ var config_data = `
         "copl": "Cone Placed<br>",
         "cupi": "Cube Picked-up<br>",
         "cupl": "Cube Placed<br>",
-        "np": "Nove near piece<br>",
-        "n": "Not capable<br>",
+        "np": "Move near piece<br>",
+        "n": "Not capable<br>"
       },
       "defaultValue":"n"
     }, 
