@@ -36,19 +36,6 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Ratio",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
-        "o": "Other ratio (put in comments)<br>",
-        "x": "Not Swerve"
-      },
-      "defaultValue":"x"
-    },
     { "name": "Drivetrain Motor",
       "code": "mot",
       "type": "radio",
@@ -60,29 +47,64 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
-    },
     { "name": "Floor pickup Cones",
       "code": "fco",
       "type": "bool"
     },
+    { "name": "Cone Placement Limit",
+      "code": "copl",
+      "type": "radio",
+      "choices": {
+        "f": "Floor<br>",
+        "m": "Mid<br>",
+        "h": "High<br>"
+      },
+      "defaultValue":"f"
+    },    
     { "name": "Floor pickup Cubes",
       "code": "fcu",
       "type": "bool"
     },
-    { "name": "Cross Charging Station",
+    { "name": "Cube Placement Limit",
+      "code": "cupl",
+      "type": "radio",
+      "choices": {
+        "f": "Floor<br>",
+        "m": "Mid<br>",
+        "h": "High<br>"
+      },
+      "defaultValue":"f"
+    },    
+    { "name": "Leave Community",
+      "code": "lc",
+      "type": "bool"
+    },
+    { "name": "Crossover Charging Station",
       "code": "ccs",
       "type": "bool"
     },
-    { "name": "Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
+    { "name": "Balance during Autonomous",
+      "code": "bda",
+      "type": "bool"
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
+    { "name": "Balance during Endgame",
+      "code": "bde",
+      "type": "bool"
+    },
+    { "name": "2nd Game Piece during Autonomous",
+      "code": "sgp",
+      "type": "radio",
+      "choices": {
+        "copi": "Cone Picked-up<br>",
+        "copl": "Cone Placed<br>",
+        "cupi": "Cube Picked-up<br>",
+        "cupl": "Cube Placed<br>",
+        "np": "Move near piece<br>",
+        "n": "Not capable<br>"
+      },
+      "defaultValue":"n"
+    }, 
+    { "name": "Any problems/ issues?",
       "code": "sct",
       "type": "text",
       "size": 20,
@@ -96,12 +118,6 @@ var config_data = `
     }
   ],
   "auton": [
-  { "name": "Comments",
-      "code": "aco",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    }
   ],
   "teleop": [
   ],
