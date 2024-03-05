@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
+  "title": "Scouting PASS 2024 - Team 7045",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023tnkn",
+      "defaultValue": "2024njski",
       "required": "true"
     },
     { "name": "Match Level",
